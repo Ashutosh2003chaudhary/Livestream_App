@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.video-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  transition: all 0.3s ease;
+}

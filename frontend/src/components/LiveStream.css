@@ -1,0 +1,48 @@
+/* src/Livestream.css */
+
+/* Overlay Hover Effects */
+.overlay:hover {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Video Container */
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    background-color: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .video-container {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .video-container {
+        height: 200px;
+    }
+}
+
+/* Settings Button Icon */
+.settings-button .fa-cog {
+    margin-right: 5px;
+}
+
+/* Modify and Delete Button Icons */
+.overlay-list .btn-outline-secondary, .overlay-list .btn-outline-danger {
+    padding: 0.25rem 0.5rem;
+}
+
+.overlay-list .btn-outline-secondary:hover, .overlay-list .btn-outline-danger:hover {
+    opacity: 0.8;
+}
